@@ -30,3 +30,4 @@ legend("topright",lty=1,cex=0.8 ,col=c("black","red","blue"),
 with(df,plot(Time,Global_reactive_power,type="l",xlab="datetime"))
 
 dev.copy(png,file="plot4.png")
+dev.off()
